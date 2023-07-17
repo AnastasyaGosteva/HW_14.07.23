@@ -9,4 +9,5 @@
 int [] arr = new int [8];
 Console.WriteLine("Введите любые 8 чисел от 1 до 100 для инициализации массива: ");
 FillArray(arr);
+Console.Clear();
 Console.WriteLine($"Ваш массив [{String.Join(",", arr)}].");
